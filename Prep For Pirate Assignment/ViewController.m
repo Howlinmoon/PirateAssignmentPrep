@@ -29,6 +29,9 @@
     NSArray *myArray = [[NSArray alloc] initWithObjects:firstString,secondString, myMutableArray, nil];
     NSLog(@"%@", myArray);
     
+    self.currentPoint = CGPointMake(3, 4);
+    NSLog(@"%f, %f", self.currentPoint.x, self.currentPoint.y);
+    
     
 }
 
