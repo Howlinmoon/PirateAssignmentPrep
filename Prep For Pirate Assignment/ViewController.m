@@ -18,6 +18,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *firstString = @"First String";
+    NSString *secondString = @"Second String";
+
+    NSMutableArray *myMutableArray = [[NSMutableArray alloc] init];
+    [myMutableArray addObject:firstString];
+    [myMutableArray addObject:secondString];
+
+    NSArray *myArray = [[NSArray alloc] initWithObjects:firstString,secondString, myMutableArray, nil];
+    NSLog(@"%@", myArray);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
