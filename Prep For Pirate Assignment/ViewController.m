@@ -32,6 +32,20 @@
     self.currentPoint = CGPointMake(3, 4);
     NSLog(@"%f, %f", self.currentPoint.x, self.currentPoint.y);
     
+    int x = 10;
+    int y = 20;
+    if (x == 10) {
+        NSLog(@"x equals 10");
+        if (y == 20) {
+            NSLog(@"Both are true");
+        }
+    }
+    
+    [self.myButton setTitle:@"Button Pressed" forState:UIControlStateNormal];
+    self.myButton.hidden = YES;
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert!" message:@"You triggered the alert!" delegate:nil cancelButtonTitle:@"CLICK ME!" otherButtonTitles:nil];
+    [alertView show];
     
 }
 
