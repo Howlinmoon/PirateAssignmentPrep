@@ -47,6 +47,17 @@
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert!" message:@"You triggered the alert!" delegate:nil cancelButtonTitle:@"CLICK ME!" otherButtonTitles:nil];
     [alertView show];
     
+    
+    self.awesomeClass = [[AwesomeClass alloc] init];
+    
+    NSString *testString = @"Has a value";
+    if (testString != nil) {
+        NSLog(@"testString has a value");
+    } else {
+        NSLog(@"testString is set to nill");
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

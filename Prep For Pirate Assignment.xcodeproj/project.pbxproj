@@ -21,6 +21,7 @@
 		969EA63C1AB1F6C60040A040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969EA61E1AB1F6C60040A040 /* UIKit.framework */; };
 		969EA6441AB1F6C60040A040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969EA6421AB1F6C60040A040 /* InfoPlist.strings */; };
 		969EA6461AB1F6C60040A040 /* Prep_For_Pirate_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969EA6451AB1F6C60040A040 /* Prep_For_Pirate_AssignmentTests.m */; };
+		96B13C911AB345A300CD3790 /* AwesomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B13C901AB345A300CD3790 /* AwesomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		969EA6411AB1F6C60040A040 /* Prep For Pirate AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prep For Pirate AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		969EA6431AB1F6C60040A040 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		969EA6451AB1F6C60040A040 /* Prep_For_Pirate_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prep_For_Pirate_AssignmentTests.m; sourceTree = "<group>"; };
+		96B13C8F1AB345A300CD3790 /* AwesomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeClass.h; sourceTree = "<group>"; };
+		96B13C901AB345A300CD3790 /* AwesomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				969EA62C1AB1F6C60040A040 /* Main.storyboard */,
 				969EA62F1AB1F6C60040A040 /* ViewController.h */,
 				969EA6301AB1F6C60040A040 /* ViewController.m */,
+				96B13C8F1AB345A300CD3790 /* AwesomeClass.h */,
+				96B13C901AB345A300CD3790 /* AwesomeClass.m */,
 				969EA6321AB1F6C60040A040 /* Images.xcassets */,
 				969EA6211AB1F6C60040A040 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B13C911AB345A300CD3790 /* AwesomeClass.m in Sources */,
 				969EA6311AB1F6C60040A040 /* ViewController.m in Sources */,
 				969EA62B1AB1F6C60040A040 /* AppDelegate.m in Sources */,
 				969EA6271AB1F6C60040A040 /* main.m in Sources */,
@@ -456,6 +462,7 @@
 				969EA64B1AB1F6C60040A040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969EA64C1AB1F6C60040A040 /* Build configuration list for PBXNativeTarget "Prep For Pirate AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				969EA64E1AB1F6C60040A040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
